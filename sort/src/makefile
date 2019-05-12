@@ -16,4 +16,4 @@ $(TARGET):$(OBJ)
 	$(CC) -o $@ $^ $(CFLAGS)
 
 clean:
-	rm -f $(TARGET) *.o
+	rm -f $(TARGET) $(ODIR)/*.o 
